@@ -20,7 +20,7 @@
     "release": "yarn run validate-release && yarn run prepare-release && semantic-release -d",
     "release:apply": "yarn run validate-release && yarn run prepare-release && semantic-release --ci false"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^14.2.2",
     "@angular/common": "^14.2.2",
