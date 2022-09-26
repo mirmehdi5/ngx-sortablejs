@@ -1,5 +1,7 @@
 # ngx-sortablejs
 
+This package was forked from ngx-sortablejs and has all the dependencies updated to work with Angular v14 on node v16.
+
 This package is an Angular 2+ binding for [Sortable.js](https://github.com/RubaXa/Sortable). Supports standard arrays and Angular `FormArray`.
 
 Previously known as angular-sortablejs.
