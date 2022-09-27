@@ -1,0 +1,49 @@
+{
+  "name": "ngx-sortablejs",
+  "keywords": [
+    "ngx-sortablejs",
+    "angular-sortablejs",
+    "sortablejs",
+    "angular",
+    "sortable",
+    "draggable"
+  ],
+  "author": "smnbbrv",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sortablejs/ngx-sortablejs"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@angular/common": "^14.2.2",
+    "@angular/core": "^14.2.2",
+    "sortablejs": "^1.10.2"
+  },
+  "main": "src/public-api.ts",
+  "module": "fesm2015/ngx-sortablejs.mjs",
+  "es2020": "fesm2020/ngx-sortablejs.mjs",
+  "esm2020": "esm2020/ngx-sortablejs.mjs",
+  "fesm2020": "fesm2020/ngx-sortablejs.mjs",
+  "fesm2015": "fesm2015/ngx-sortablejs.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/ngx-sortablejs.mjs",
+      "es2020": "./fesm2020/ngx-sortablejs.mjs",
+      "es2015": "./fesm2015/ngx-sortablejs.mjs",
+      "node": "./fesm2015/ngx-sortablejs.mjs",
+      "default": "./fesm2020/ngx-sortablejs.mjs"
+    }
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
